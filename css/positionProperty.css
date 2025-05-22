@@ -1,0 +1,60 @@
+.container{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    /* background-color: blue; */
+    width: 100px;
+    height: 100px;
+    
+}
+.red{
+    position:relative;
+    background-color: red;
+    top: 50px;
+    right: auto;
+    left: 50px;
+}
+
+.green{
+ 
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+/* by default position is static */
+
+/* relative means related to parent it will move */
+/* left:50px; it will move 50px from left; */
+/* top:50px; it will move 50px from top; */
+
+
+/* absolute means related to the closest parent with position other than static */
+/* it searches for parent whose position is relative then it work accordingly */
+/* if no parent with position relative found it will take html as parent */
+/* the relative of absolute is html. not exactly */ 
+/* absolute means it will move from the closest parent with position other than static */
+/* left:50px; it will move 50px from left; */
+
+
+/* fixed means it will move from the viewport */
+/*the position of the element is fixed */
+/* it is related to root */
+/* left:50px; it will move 50px from left; and there it will be fixed */
+
+/* sticky means it will move from the viewport */
+/* the position of the element is sticky */
+/* left:50px; it will move 50px from left with respect to parent; and there it will be sticky */
+/* it will be sticky till when parent is there then it will be sticky */
+
+
+/* z index  */
+/* z index is used to set the order of the elements */
+/* children will be coming above parent */
+/* eg box coming above container  */
+/* z index 1 will come above */
+/* which ever z index is higher it will be more towards user */

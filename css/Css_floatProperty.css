@@ -1,0 +1,37 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border: 2px solid black;
+    /* overflow: hidden;  overflow content will be hidden*/
+    /* overflow: scroll; scrollbar will come visible */
+    /* overflow:auto; automatically scroll bar will come according to content */
+    
+}
+/* by default overflow is visible */
+
+
+/* ---------------------- */
+/* css float property specifies how an element should float  */
+/* float -- left, right,none,inherit  */
+/* we can add placeholder image  img src=" https://via.placeholder.com/200*100" */
+/* float: left;  will float the image to the left leaving the spcae empty for content*/
+
+/* ------ */
+/* if we want to clear the float we can use clear property */ 
+/* clear: left;  will clear the left float */
+/* clear: right;  will clear the right float */
+/* clear: both;  will clear both left and right float */
+/* clear: none;  will not clear any float */
+
+/* clear: inherit;  will inherit the value from parent */
+/* clear: initial;  will set the value to default */
+/* clear: unset;  will set the value to default or inherit */
+/* clear: all;  will clear all the floats */
+
+.p2{
+    clear: right;   
+}
+/* we should use clear and float property for text and image only */
+/* we should not use float and clear for layout formatting */
+/* instead we use flex and grid for layout and position property*/
